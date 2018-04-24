@@ -2,7 +2,8 @@
 // You can write your code in this editor
 isthrowing = false;
 
-mymovehex =instance_nearest(x,y,obj_hex)
+mymovehex =instance_nearest(x,y,obj_hex);
+movepath = noone;
 
 mymovespeed = 5;
 
@@ -11,9 +12,11 @@ circV = 0;
 focusX = 0;
 constP = 0;
 constK = 0;
+mypath = noone;
 
 
-
+pathdrawx = 0;
+pathdrawy = 0;
 
 
 

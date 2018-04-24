@@ -1,10 +1,13 @@
 /// @description Insert description here
-// You can write your code in this editor
-myTarget = noone;
-startingX = x;
-targetX = noone;
-halfWayPoint = noone;
-mygrav = 0;
 
-targetHeight = noone;
-myTTT = noone;
+//myTarget = noone;
+//startingX = x;
+//targetX = noone;
+//halfWayPoint = noone;
+//mygrav = 0;
+
+//targetHeight = noone;
+//myTTT = noone;
+
+potionpath = noone;
+show_debug_message("I'm a potion " + string(x) + " " + string(y))

@@ -10,4 +10,15 @@
 //}
 //depth = layer_get_depth(layer_get_id("layer_middle"))
 
-obj_player.mymovehex = self;
+//obj_player.mymovehex = self;
+
+with(obj_player){
+	if(path_index!=-1){
+	path_end();
+	mymovehex =instance_nearest(x,y,obj_hex);
+	}
+}
+if(obj_player.mymovehex.id !=self.id){
+playpath = findPath(obj_player.mymovehex, self);
+obj_player.movepath = playpath;
+}
